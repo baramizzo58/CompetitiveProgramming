@@ -1,0 +1,34 @@
+You have some glasses which have water on some of them, each of the glasses will have the same size that you can filled. your task is to move all the water on the glasses, so you can take minimum of glasses which filled with the water and sort it from the ful to the minimum (You don't need to take the empty one).
+
+Note: You only need to focus on finishing the function which has two parameter (sizeOfGlass and arrayOfGlasses).
+
+First parameter of the function is the flass size (sizeOfGlass) which all of the glasses will have the same size.
+Second parameter of the function is array of the glasses (arrayOfGlasses) and how much it has been filled on each of them.
+
+Example:
+Let's say the function will have 5 as the first parameter and [4, 4, 1] as the second parameter, and the function is expected to return [5, 4].
+
+We can conclude that all of the size of water is 9 (4+4+1), and because of the max size of the glass is 5, you can make the first glass to filled up to 5 and the  second glass doesn't have any change of the size (4 out of 5). and we will return array of integer [5, 4].
+
+Input & Output description:
+
+Input 1:
+5
+3
+4
+4
+1
+
+Output 1:
+5
+4
+
+Explanation:
+First input(5) is sizeOfGlass
+second input(3) is the quantity of glasses
+third input (4) means the first glass is filled with 4 out of 5 (max size of the glass)
+fourth input (4) means the second glass is filled with 4 out of 5 (max size of the glass)
+third input (1) means the first glass is filled with 1 out of 5 (max size of the glass)
+
+The first output(5) means the first glass is now filled with 5 out of 5 (max size of the glass)
+The second output(4) means the first glass is now filled with 4 out of 5 (max size of the glass)

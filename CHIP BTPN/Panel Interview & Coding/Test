@@ -1,0 +1,89 @@
+Bakery 
+ 
+Time Limit: 15 mins 
+ 
+You are a baker who is selling different types of cakes. Each cake has a different time required to be baked and you can only bake maximum two of each cake. You have a machine that can tell you how many cake you can bake in a given time limit. 
+ 
+ 
+The cakes you have and their production time are: 
+- Tart: 4200s 
+- Pie: 1810s 
+- Muffin: 1080s 
+- Cookie: 640s 
+- Brownie: 1320s 
+ 
+ 
+The machine should accept time limit as the input, in the form of integer and formatted as H (hour) m (minute) s (second). For minute and second, the maximum value is 59. 
+ 
+ 
+Write a function that takes the time limit input and returns the possible cake combination according to the time limit. 
+ 
+ 
+Examples 
+ 
+Example 1 
+Input: 
+1 0 0 
+ 
+Note: This means 1 hour 0 minute 0 second 
+ 
+Output: 
+2 Cookie 
+2 Muffin 
+ 
+ 
+Example 2 
+Input: 
+1 30 10 
+ 
+Output: 
+2 Cookie 
+2 Muffin 
+1 Brownie 
+ 
+ 
+Example 3 
+Input: 
+3 9 2 
+ 
+Output: 
+2 Cookie 
+2 Muffin 
+2 Brownie 
+2 Pie 
+ 
+ 
+Example 4 
+Input: 
+0 25 0 
+ 
+Output: 
+2 Cookie 
+ 
+ 
+Example 5 
+Input: 
+1 60 0 
+ 
+Output: 
+Invalid input 
+ 
+ 
+Example 6 
+Input: 
+1 0 60 
+ 
+Output: 
+Invalid input 
+ 
+ 
+Example 7 
+Input: 
+60 59 59 
+ 
+Output: 
+2 Cookie 
+2 Muffin 
+2 Brownie 
+2 Pie 
+2 Tart

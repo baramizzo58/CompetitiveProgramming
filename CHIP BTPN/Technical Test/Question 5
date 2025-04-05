@@ -1,0 +1,29 @@
+Content:
+Evelyn had a birthday party. She has a lot of cakes, so that she wants give them to all of her friends. The cakes wrapped in several packets. She has M friends. Each packet has size number that represents the number of cake in a packet. Evelyn task is distributed her cake packets among N her friends such that:
+
+Conditions:
+1. Each of her friend get exactly one packet. In fach each packet has different number of cake inside.
+2. The difference between maximum and minimum number of cakes inside a packet she gives to her friends has to be the minimum.
+3. Show the following packets that has minimum difference.
+
+Examples
+Example 1:
+Cake's packet = [2, 20, 13, 31, 10, 12, 17, 16, 27]
+M (Evelyn's friends) = 3
+N (Total packets) = 9
+Output: 3, [13, 10, 12]
+Description: The minimum difference between maximum cakes and minimum cakes is 13 - 10 = 3 by choosing following M packets: [13, 10, 12]
+
+Example 2:
+Cake's packet = [10, 6, 8, 12, 15, 6, 14, 16]
+M (Evelyn's friends) = 4
+N (Total packets) = 8
+Output: 4, [6, 6, 8, 10]
+Description: The minimum difference between maximum cakes and minimum cakes is 10 - 6 = 4 by choosing following M packets: [6, 6, 8, 10]
+
+Example 2:
+Cake's packet = [7, 3, 2, 4, 9, 11, 50]
+M (Evelyn's friends) = 3
+N (Total packets) = 7
+Output: 3, [3, 2, 4]
+Description: The minimum difference between maximum cakes and minimum cakes is 4 - 2 = 2 by choosing following M packets: [2, 3, 4]

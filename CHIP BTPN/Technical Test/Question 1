@@ -1,0 +1,58 @@
+Jenius want to open an internet cafe near BTPN. Customer will pay the service hourly, and the more hour the customer spends, the price will get cheaper. Below is the price table:
+
+Time (hour)	| Price (Rupiah)
+--------------------------------
+1		| 4000
+5		| 18000
+
+You are being asked to create a helper to calculate the price for using a computer in the internet cafe. The input will be in hours (integer) and the output in rupiah (integer).
+
+Input:
+1
+Output:
+4000
+
+Explanation:
+1 hour * 4000 Rupiah = 4000 Rupiah
+
+Input:
+2
+Output:
+8000
+Explanation:
+2 hour * 4000 rupiah = 8000 rupiah
+
+Input:
+5
+Output:
+18000
+Explanation:
+1 hour * 18000 rupiah = 18000 rupiah
+
+Input:
+7
+Output:
+26000
+Explanation:
+1 hour * 18000 rupiah + 2 hour * 4000 rupiah = 26000 rupiah
+
+Input:
+10
+Output:
+36000
+Explanation:
+2 hour * 18000 rupiah = 36000 rupiah
+
+Input:
+10
+Output:
+36000
+Explanation:
+2 hour * 18000 rupiah = 36000 rupiah
+
+Input:
+14
+Output:
+52000
+Explanation:
+2 hour * 18000 rupiah + 4 hour * 4000 rupiah = 52000 rupiah

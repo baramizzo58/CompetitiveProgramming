@@ -1,0 +1,16 @@
+Do u know git? many developers used it to maintain the version of their code.
+Sometimes, our code is changing but with Git we know which code has been changed.
+Now, I want you to make a simple code to know which text change like git was.
+
+Example:
+Input:
+CHIP
+CHiP
+Output:
+CH[I|i]P
+
+Input:
+Programmer
+noobgamers
+Output:
+[Pr|no]o[gr|bg]am[mer|ers]
